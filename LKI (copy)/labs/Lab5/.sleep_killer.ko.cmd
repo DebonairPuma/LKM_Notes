@@ -1,0 +1,1 @@
+cmd_/home/student/LKI/labs/Lab5/sleep_killer.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/LKI/labs/Lab5/sleep_killer.ko /home/student/LKI/labs/Lab5/sleep_killer.o /home/student/LKI/labs/Lab5/sleep_killer.mod.o

@@ -1,0 +1,17 @@
+global syscalls
+probe begin
+{
+		printf("starting-- ctrl-c to stop\n")
+}
+
+probe nd_syscall.*
+{
+		syscalls[execname()] ++
+}
+
+probe end
+{
+	printf("Executable[Syscall Count]\n")
+	foreach (process in syscalls)
+		printf("%s[%d]\n",process, syscalls[process])
+}

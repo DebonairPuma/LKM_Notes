@@ -1,0 +1,1 @@
+cmd_/home/student/LKI/labs/Lab19/netdead.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/LKI/labs/Lab19/netdead.ko /home/student/LKI/labs/Lab19/netdead.o /home/student/LKI/labs/Lab19/netdead.mod.o

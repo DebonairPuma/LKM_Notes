@@ -1,0 +1,1 @@
+cmd_/home/student/LKI/labs/Lab14b/noop-iosched.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/LKI/labs/Lab14b/noop-iosched.ko /home/student/LKI/labs/Lab14b/noop-iosched.o /home/student/LKI/labs/Lab14b/noop-iosched.mod.o

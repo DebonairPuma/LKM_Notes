@@ -1,0 +1,1 @@
+cmd_/home/student/LKI/labs/capstone/capstone.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/LKI/labs/capstone/capstone.ko /home/student/LKI/labs/capstone/capstone.o /home/student/LKI/labs/capstone/capstone.mod.o

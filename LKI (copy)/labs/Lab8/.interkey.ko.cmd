@@ -1,0 +1,1 @@
+cmd_/home/student/LKI/labs/Lab8/interkey.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/LKI/labs/Lab8/interkey.ko /home/student/LKI/labs/Lab8/interkey.o /home/student/LKI/labs/Lab8/interkey.mod.o

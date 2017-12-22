@@ -1,0 +1,25 @@
+!SESSION 2017-08-23 20:52:23.212 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 1 1 2017-08-23 20:53:22.210
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 1 1 2017-08-23 20:53:48.588
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-23 20:54:12.845
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-23 20:54:12.846
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-08-23 20:54:12.846
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-08-23 20:54:36.366
+!MESSAGE Project 'RemoteSystemsTempFiles' is not open.

@@ -1,0 +1,9 @@
+intercept the following system call:
+execve()- used to launch external programs for specififc users.  Modify the call 
+so that if a bash shell is invoked for a specific normal user then make it a root shell
+
+Test by sshing into the local system and logging in as that user and making sure you get a root shell on longin
+
+Intercept 2 more system calls of your choice.  Use strace on different commands to find interesting system calls to intercept.  
+
+Use netfilter hooks to block all TCP traffic on port 80
